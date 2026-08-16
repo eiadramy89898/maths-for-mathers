@@ -17,7 +17,10 @@ const outfit = Outfit({
 })
 
 export const metadata: Metadata = {
-  title: 'Maths for Mathers',
+  title: {
+    default: 'Maths for Mathers',
+    template: '%s',
+  },
   description: 'Study resources for G10 S2 — LO6: Absolute Value, Piecewise Functions, Step Function.',
 }
 
