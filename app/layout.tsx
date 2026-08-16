@@ -17,9 +17,8 @@ const outfit = Outfit({
 })
 
 export const metadata: Metadata = {
-  title: 'Maths for Mathers - Premium Mathematics Learning Platform',
-  description:
-    'Master mathematics with AI-powered learning, smart planner, and comprehensive study materials.',
+  title: 'Maths for Mathers',
+  description: 'Study resources for G10 S2 — LO6: Absolute Value, Piecewise Functions, Step Function.',
 }
 
 export default function RootLayout({ children }: LayoutProps<'/'>) {
