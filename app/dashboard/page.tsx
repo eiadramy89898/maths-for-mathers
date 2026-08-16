@@ -119,7 +119,6 @@ export default function DashboardPage() {
 
             return (
               <motion.div key={s.href} variants={card} whileHover={{ y: -4, transition: { duration: 0.2 } }}>
-                {/* @ts-expect-error dynamic tag */}
                 <Wrapper {...extraProps} className="group block h-full">
                   <div className="relative h-full rounded-2xl overflow-hidden border border-white/5 bg-[#13131f] transition-all duration-300 hover:border-white/15">
 
